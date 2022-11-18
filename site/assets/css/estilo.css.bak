@@ -1,0 +1,472 @@
+body{
+
+    width: 100%; /*Usado para o código se adaptar a todas as resoluções*/
+    background-color: #ffffff;
+    font-family:"trebuchet ms",verdana;
+    color:#333333;
+    margin: 0 auto; /*Usado para o código se adaptar a todas as resoluções*/
+}
+
+img{
+    border:none;
+}
+
+#topo{
+    width:100%; /*porcentagem usada para ocupar toda a largura, se adaptando a resoluções diferentes*/
+    height:150px;
+    margin:auto;
+	
+}
+
+#barra{
+
+    position: absolute;
+    
+}
+
+#logo{
+    width:181px;
+    height:73px;
+    margin-left:150px;
+    margin-top: 20px;
+    position:absolute;
+    
+    
+}
+
+#menu{
+    float:right; /*para ficar posicionado na direita*/
+    margin-top:62px;
+	margin-right: 20px;
+}
+
+#menu a{
+    color:#2f4a12;
+    font-weight:bold;
+    font-family:verdana;
+    text-decoration:none;
+    display:inline-block;
+    padding:10px 20px 10px 20px;
+}
+
+#menu a:hover{
+    color:#ec9f08;
+    
+	
+}
+
+.container-fluid{
+     background-color:#fff;
+}
+
+#banner{
+    
+    position: center;
+}
+
+#conteudo{
+
+    margin:30px 0 30px 0; /*TOP RIGHT BOTTOM LEFT*/
+}
+
+/*GALERIA 2.0*/
+
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*BOTÕES*/
+
+.button {
+    background-color: #804D00;
+    border: none;
+    color: white;
+    padding: 1% 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 0px ;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #a16202;
+    text-decoration: none;
+    color: white;
+}
+
+/* estas são as dimensões típicas de um iPhone*/
+
+@media only screen and (max-device-width: 320px) {
+
+    #buttonExamples {font-size: 150%;}
+    
+    }
+    
+    /* estas são as dimensões típicas de um smartphone */
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+    #buttonExamples {font-size: 150%;}
+    
+    }
+    
+    @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+    
+    #buttonExamples {font-size: 150%;}
+    
+    }
+    
+    /* estas são as dimensões típicas para um computador de dispositivo / desktop de tamanho médio */
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+    
+    #buttonExamples {font-size: 150%;}
+    
+    }
+    
+    /* estas são as dimensões típicas para uma tela grande */
+    
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1200px) {
+    
+    #buttonExamples {font-size: 150%;}
+    
+    }
+
+/*FIM*/
+
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2{
+
+    font-weight: 800;
+    color: #4b2d00;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cards_item img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #804D00;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover {
+  background-color: #CD9849
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+ 
+}
+
+.card_title {
+  color: #804D00;
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #804D00;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+  text-align: center;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+/*FIM DA GALERIA*/
+
+/*PAGINAÇÃO*/
+
+.center {
+    text-align: center;
+  }
+
+.pagination {
+    display: inline-block;
+ }
+  
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  .pagination a.active {
+    background-color: #804D00;
+    color: white;
+    border: 1px solid #694001;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #804D00 ;}
+  
+  .pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+/*FIM PAGINAÇÃO*/
+
+
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+
+h3{
+    font-family:verdana;
+    font-size:18px;
+}
+
+h4{
+    font-size:14px;
+    margin-top:10px;
+}
+
+#box1{
+
+    position:absolute ;
+    right:1050px;
+    bottom: -270px;
+    
+}
+
+#box1,#box2,#box3{
+    width:260px;
+    min-height:300px;
+    float:left;
+}
+
+#box2{
+    margin-left:50px;
+}
+
+#box3{
+    float:right;
+}
+
+#box1 h3, #box2 h3, #box3 h3{
+    margin-top:10px;
+}
+    
+#box1 p, #box2 p{
+    color:#666666;
+    font-size:12px;
+}
+
+.logo{
+
+    position: absolute;
+    top: 15px;
+}
+
+input[type=text]{ /*formata os inputs do tipo text*/
+    width:260px;
+    border:solid 1px #CCCCCC;
+    margin-bottom:5px;
+}
+
+
+
+/*rodapé*/
+
+#myFooter {
+    background-color: #f9de4e;
+    padding-top: 30px;
+
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: #663e00;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #804d00;
+    text-decoration: none;}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #CD9849;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #804d00;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
